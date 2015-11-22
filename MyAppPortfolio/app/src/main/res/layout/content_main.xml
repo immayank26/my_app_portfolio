@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="72dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ma26.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:weightSum="1"
+    android:background="#4A148C">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:singleLine="false"
+        android:textSize="30dp"
+        android:textAlignment="gravity"
+        android:textColor="#FF9800" />
+
+    <Button
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:text="SPOTIFY STREAMER"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:background="#000000"
+        android:textColor="#FFC107" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:text="SCORES APP"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:background="#FFC107" />
+
+    <Button
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY APP"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:background="#000000"
+        android:textColor="#FFC107" />
+
+    <Button
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:background="#FFC107"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:text="XYZ READER"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:background="#000000"
+        android:textColor="#FFC107" />
+
+    <Button
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE: MY OWN APP"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:background="#FFC107"
+        android:textColor="#000000" />
+</LinearLayout>
